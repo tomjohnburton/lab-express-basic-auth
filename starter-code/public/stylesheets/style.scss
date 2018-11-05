@@ -6,3 +6,114 @@ body {
 a {
   color: #00B7FF;
 }
+#form {
+  margin: 30px auto;
+  width: 380px;
+}
+
+#form label {
+  color: #666;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+#form input,
+#form button {
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: 0;
+  padding: 4px;
+  width: 100%;
+}
+
+#form button {
+  background: #43a3e6;
+  border: 1px solid #43a3e6;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s ease background;
+  width: 100%;
+}
+
+#form button:hover {
+  background: #fff;
+  color: #43a3e6;
+  transition: .3s ease background;
+}
+
+.error-message {
+  background: #F02B63;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.button_strength {
+text-decoration: none;
+color: #FFF;
+font-size: 13px;
+}
+.strength_meter div{
+width:0%;
+height: 43px;
+text-align: right;
+color: #000;
+line-height: 43px;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+padding-right: 12px;
+border-radius:5px;
+}
+.strength_meter div p{
+position: absolute;
+top: 22px;
+right: 0px;
+color: #FFF;
+font-size:13px;
+}
+
+.veryweak{
+background-color: #FFA0A0;
+border-color: #F04040!important;
+width:25%!important;
+}
+.weak{
+background-color: #FFB78C;
+border-color: #FF853C!important;
+width:50%!important;
+}
+.medium{
+background-color: #FFEC8B;
+border-color: #FC0!important;
+width:75%!important;
+}
+.strong{
+background-color: #C3FF88;
+border-color: #8DFF1C!important;
+width:100%!important;
+}
+h1{
+color:white;
+font-size:50px;
+text-align:center;
+padding-top:30px;
+margin-bottom:20px;
+}
+h1 span{
+font-weight:bold;
+color:white;
+opacity:.3;
+}
